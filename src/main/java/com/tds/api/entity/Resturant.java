@@ -1,5 +1,6 @@
 package com.tds.api.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.Data;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
@@ -10,6 +11,7 @@ import java.util.Date;
 @Entity
 @Table(name = "resturant")
 @Data
+@JsonIgnoreProperties({"hibernateLazyInitializer","handler", "created_at", "updated_at"})
 public class Resturant {
 
     @Id

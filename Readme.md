@@ -51,6 +51,8 @@ Example request payload:
 
 **Get Open Resturants By Date**
 
+![alt adidas](https://github.com/Nnadozieomeonu/images/blob/2529bfddd71dee0216d273c529556a449acb8786/solution2.png?raw=true)
+
 *https://tds-interview.herokuapp.com/tds/api/v1/resturant/avaliability*
 
 *POST METHOD*
@@ -65,3 +67,10 @@ Example request payload:
 
 See API documentation for more details https://tds-interview.herokuapp.com/swagger-ui.html
 
+**Foo Bar Solution **
+
+![alt adidas](https://github.com/Nnadozieomeonu/images/blob/2529bfddd71dee0216d273c529556a449acb8786/solution1.png?raw=true)
+
+*https://tds-interview.herokuapp.com/tds/api/v1/
+
+*GET METHOD*
