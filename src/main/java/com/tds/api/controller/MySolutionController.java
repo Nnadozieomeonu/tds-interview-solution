@@ -63,10 +63,26 @@ public class MySolutionController {
     }
 
 
+    //Solution 3
     /**
      * How many tennis balls fit into a Boeing 787 Dreamliner?
      *
+     *First, we need to find the volume of the aeroplane and the tennis ball.
      *
+     * Once we get these figures, we will divide the volume of the airplane with that of the tennis ball.
+     *
+     * Estimating that Boeing 787 has an approximate radius of 1 meter (assuming the aeroplane has the same height of a normal office floor) and length ~33 meters
+     * (~400 seats in an aeroplane with 10 seats a row which gives us 40 rows and adding another 10 rows for pilot and toilets we get to ~50 rows * 2 feet which gives us ~100 feet or ~33 meters).
+     *
+     * The volume of aeroplane is 103m^3 or 33πm^3 or 33mπcm^3
+     *
+     * Then, estimating that tennis ball has a radius 3.3cm we can calculate the volume. In that case, the volume of the tennis ball can be calculated by the formula of a sphere.
+     *
+     * Volume of a sphere is = (4 πr3)/3 The volume of the tennis ball would be ~47.916πcm^3.
+     *
+     * Finally, after dividing the volume of the aeroplane by that to the tennis ball we arrive at apportximate figure of tennis balls that can fit a Boeing 787 dreamliner.
+     *
+     * Therefore, we can fit approximately 688,705 tennis balls in a Boeing 787
      */
 
 }
