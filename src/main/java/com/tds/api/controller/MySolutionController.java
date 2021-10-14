@@ -31,12 +31,12 @@ public class MySolutionController {
      * @return
      */
     @GetMapping("/tds/api/v1/")
-    @ApiOperation(value = "Solution to the first question to consume and API and display the data", response = Iterable.class)
+    @ApiOperation(value = "Solution to the first question to consume and API and display the data", response = ResponseEntity.class)
     public ResponseEntity<?> consumeApi(@RequestParam(value="foo1", required=false, defaultValue="bar1") String foo1,
                                       @RequestParam(value="foo2", required=false, defaultValue="bar2") String foo2){
         String requestURL = url+"?foo1="+foo1+"&foo2="+foo2;
         RestTemplate restTemplate = new RestTemplate();
-        Object result = restTemplate.getForObject(requestURL, ResponseEntity.class);
+        Object result = restTemplate.getForObject(requestURL, Object.class);
         return ResponseEntity.ok(result);
     }
 

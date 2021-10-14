@@ -1,10 +1,10 @@
-## Time Data Security Ltd. [Documentation](https://app.swaggerhub.com/) :thought_balloon:
+## Time Data Security Ltd. [Documentation](https://tds-interview.herokuapp.com/swagger-ui.html) :thought_balloon:
 
 ![alt adidas](https://github.com/Nnadozieomeonu/images/blob/0d570b94ce1690df3174e14498b216adde548a01/Adam.gif?raw=true)
 
 # Table of Contents :thought_balloon:
 1. [Introduction and technology list](#Introduction-and-technology-list)
-2. [Swagger API Documentation](https://app.swaggerhub.com/apis/Nnadozieomeonu/Adidas-Technical-Challenge/1.0.0).
+2. [Swagger API Documentation](https://tds-interview.herokuapp.com/swagger-ui.html).
 3. [Problem Solving Question Solution](#Problem Solving Question Solution)
 
 
@@ -39,7 +39,7 @@ These are my notes on  how to set up the under listed service, technology for te
 5. [InteliJ](http://jetbrains.com).
 
 The Link to H2 Database is http://localhost:8080/h2-console
-1. Database URL: ``http://localhost:8080/h2-console/login.jsp``
+1. Database URL: ``https://tds-interview.herokuapp.com/h2-console/login.jsp``
 2. Username: ``sa``
 3. Password: ``password``
 4. JDBC URL: ``jdbc:h2:mem:testdb``
@@ -51,7 +51,7 @@ Example request payload:
 
 **Get Open Resturants By Date**
 
-*http://localhost:8080/tds/api/v1/resturant/avaliability*
+*https://tds-interview.herokuapp.com/tds/api/v1/resturant/avaliability*
 
 *POST METHOD*
 
@@ -63,5 +63,5 @@ Example request payload:
 
 ```
 
-See API documentation for more details http://localhost:8080/swagger-ui.html
+See API documentation for more details https://tds-interview.herokuapp.com/swagger-ui.html
 
