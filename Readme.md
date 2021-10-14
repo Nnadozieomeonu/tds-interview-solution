@@ -5,7 +5,7 @@
 # Table of Contents :thought_balloon:
 1. [Introduction and technology list](#Introduction-and-technology-list)
 2. [Swagger API Documentation](https://tds-interview.herokuapp.com/swagger-ui.html).
-3. [Problem Solving Question Solution](#Problem Solving Question Solution)
+3. [Problem Solving Question Solution](#Problem-Solving-Question-Solution)
 
 
 ## Introduction and technology list :thought_balloon:
@@ -71,6 +71,12 @@ See API documentation for more details https://tds-interview.herokuapp.com/swagg
 
 ![alt adidas](https://github.com/Nnadozieomeonu/images/blob/2529bfddd71dee0216d273c529556a449acb8786/solution1.png?raw=true)
 
-*https://tds-interview.herokuapp.com/tds/api/v1/
+*https://tds-interview.herokuapp.com/tds/api/v1/*
 
 *GET METHOD*
+
+
+## Problem Solving Question Solution :thought_balloon:
+
+How many tennis balls fit into a Boeing 787 Dreamliner?
+
