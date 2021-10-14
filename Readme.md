@@ -51,7 +51,7 @@ Example request payload:
 
 **Get Open Resturants By Date**
 
-![alt adidas](https://github.com/Nnadozieomeonu/images/blob/2529bfddd71dee0216d273c529556a449acb8786/solution2.png?raw=true)
+![alt adidas](https://github.com/Nnadozieomeonu/images/blob/46b8029c28ea859e60acbfc40058ade681de9a39/solution2.png?raw=true)
 
 *https://tds-interview.herokuapp.com/tds/api/v1/resturant/avaliability*
 
