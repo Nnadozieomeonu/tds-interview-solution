@@ -51,7 +51,7 @@ Example request payload:
 
 **Get Open Resturants By Date**
 
-![alt adidas](https://github.com/Nnadozieomeonu/images/blob/46b8029c28ea859e60acbfc40058ade681de9a39/solution2.png?raw=true)
+![alt tds](https://github.com/Nnadozieomeonu/images/blob/46b8029c28ea859e60acbfc40058ade681de9a39/solution2.png?raw=true)
 
 *https://tds-interview.herokuapp.com/tds/api/v1/resturant/avaliability*
 
@@ -69,9 +69,15 @@ See API documentation for more details https://tds-interview.herokuapp.com/swagg
 
 **Foo Bar Solution **
 
-![alt adidas](https://github.com/Nnadozieomeonu/images/blob/2529bfddd71dee0216d273c529556a449acb8786/solution1.png?raw=true)
+![alt tds](https://github.com/Nnadozieomeonu/images/blob/2529bfddd71dee0216d273c529556a449acb8786/solution1.png?raw=true)
 
 *https://tds-interview.herokuapp.com/tds/api/v1/*
+
+A live demo can be seen on the below url or [Click Here](https://tds-interview-web.herokuapp.com/) to access demo
+
+*https://tds-interview-web.herokuapp.com/*
+
+![alt tds](https://github.com/Nnadozieomeonu/images/blob/90eb0615cb41e7853983e5c9afc25d2d3dc47ccf/demo.png?raw=true)
 
 *GET METHOD*
 
