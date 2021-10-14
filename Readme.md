@@ -38,14 +38,17 @@ These are my notes on  how to set up the under listed service, technology for te
 4. [GIT](http://git.com).
 5. [InteliJ](http://jetbrains.com).
 
+The dependency manager used is Maven and you can find all the dependenies in the pox.xml file. also the CSV file has been copied and saved in the static directroy located in spring boot IOC resource directory, in this resource directory we can also find the application property files that holds the application configuration.
+
 The Link to H2 Database is http://localhost:8080/h2-console
-1. Database URL: ``https://tds-interview.herokuapp.com/h2-console/login.jsp``
+1. Database URL: ``http://localhost:8080/h2-console/login.jsp``
 2. Username: ``sa``
 3. Password: ``password``
 4. JDBC URL: ``jdbc:h2:mem:testdb``
 
+Heroku does not support local access to H2 DB so you can only be able to access db console via localhost, by cloning and setting up this project.
 
-Please not that the date format for sending a POST request to retrive avaliable Resturant is ``yyyy-MM-ddTHH:mm:ss.SSSZ``
+Please note that the date format for sending a POST request to retrive avaliable Resturant is ``yyyy-MM-ddTHH:mm:ss.SSSZ``
 
 Example request payload:
 
