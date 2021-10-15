@@ -58,6 +58,8 @@ Example request payload:
 
 *https://tds-interview.herokuapp.com/tds/api/v1/resturant/avaliability*
 
+Please note that the time zone is important  ``2021-10-15T11:00:54.385Z `` for the implementation to work of our Heuroku server it is  ``ss.SSSZ `` is  ``54.385Z``
+which must be included. the date and time uses standard format.
 *POST METHOD*
 
 ```json
