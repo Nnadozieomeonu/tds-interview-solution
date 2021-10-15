@@ -209,7 +209,7 @@ public class ResturantUtil {
         Date d = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ssZ", Locale.ENGLISH).parse(new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ssZ").format(date));
         Calendar calendar = Calendar.getInstance();
         calendar.setTime(d);
-        calendar.add(Calendar.HOUR, -1);
+        //calendar.add(Calendar.HOUR, -1);
         String[] stringDate = calendar.getTime().toString().split(" ");
         return stringDate[3];
     }
